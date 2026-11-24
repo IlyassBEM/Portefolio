@@ -1123,7 +1123,7 @@ footer span { color: var(--cyan); }
 
 <!-- ── NAVIGATION ───────────────────────────────────────────────── -->
 <nav>
-  <div class="nav-logo">ILYASS <span>BEM</span></div>
+  <div class="nav-logo">ILYASS <span>BEN EL MEKKI</span></div>
   <div class="nav-links" id="navLinks">
     <a href="#accueil" class="active">Accueil</a>
     <a href="#apropos">À propos</a>
@@ -1160,19 +1160,11 @@ footer span { color: var(--cyan); }
       </p>
       <div class="hero-chips">
         <span class="chip">Cybersécurité</span>
+        <span class="chip">Administration systèmes</span>
         <span class="chip">Administration réseau</span>
-        <span class="chip">VLAN &amp; Routage</span>
-        <span class="chip">Cisco IOS</span>
-        <span class="chip">pfSense</span>
-        <span class="chip">Windows Server</span>
-        <span class="chip">Active Directory</span>
-        <span class="chip">Debian Linux</span>
-        <span class="chip">Virtualisation VMware</span>
-        <span class="chip">Docker</span>
-        <span class="chip">Support &amp; ITIL</span>
-        <span class="chip">GLPI</span>
-        <span class="chip">Wireshark</span>
-        <span class="chip">Python</span>
+        <span class="chip">Services &amp; infrastructures</span>
+        <span class="chip">Virtualisation</span>
+        <span class="chip">Support utilisateurs</span>
       </div>
       <div class="hero-btns">
         <a href="#stage" class="btn btn-primary">Voir mon stage</a>
@@ -1231,26 +1223,39 @@ footer span { color: var(--cyan); }
     <div class="about-card fade-in">
       <h3>🛠️ Compétences techniques</h3>
       <div class="skills-grid">
-        <span class="skill-tag">Linux / Debian</span>
         <span class="skill-tag">Windows 10/11</span>
-        <span class="skill-tag">Windows Server</span>
+        <span class="skill-tag">Windows Server 2019 / 2025</span>
         <span class="skill-tag">Active Directory</span>
         <span class="skill-tag">GPO</span>
-        <span class="skill-tag">DHCP / DNS</span>
-        <span class="skill-tag">VLAN / NAT</span>
+        <span class="skill-tag">DNS / DHCP</span>
+        <span class="skill-tag">Linux / Debian</span>
+        <span class="skill-tag">Bash</span>
+        <span class="skill-tag">PowerShell</span>
+        <span class="skill-tag">SSH</span>
+        <span class="skill-tag">Modèle OSI / TCP-IP</span>
+        <span class="skill-tag">VLAN / NAT / routage</span>
         <span class="skill-tag">Cisco IOS</span>
+        <span class="skill-tag">Cisco Packet Tracer</span>
         <span class="skill-tag">pfSense</span>
         <span class="skill-tag">iptables</span>
-        <span class="skill-tag">GLPI</span>
-        <span class="skill-tag">RustDesk</span>
-        <span class="skill-tag">Imagerie de postes</span>
-        <span class="skill-tag">TinyMDM</span>
-        <span class="skill-tag">VMware</span>
-        <span class="skill-tag">Docker / Compose</span>
-        <span class="skill-tag">Wireshark</span>
+        <span class="skill-tag">VPN</span>
         <span class="skill-tag">Nmap</span>
-        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Wireshark</span>
+        <span class="skill-tag">VMware Workstation</span>
+        <span class="skill-tag">Docker / Compose</span>
+        <span class="skill-tag">WSL2</span>
+        <span class="skill-tag">GLPI</span>
+        <span class="skill-tag">ITIL</span>
+        <span class="skill-tag">Zabbix</span>
+        <span class="skill-tag">Apache2 / MariaDB</span>
         <span class="skill-tag">SQL</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Git / GitHub</span>
+        <span class="skill-tag">HTML / CSS</span>
+        <span class="skill-tag">RustDesk</span>
+        <span class="skill-tag">TinyMDM</span>
+        <span class="skill-tag">Imagerie de postes</span>
+        <span class="skill-tag">Sauvegardes</span>
       </div>
     </div>
 
@@ -1272,10 +1277,6 @@ footer span { color: var(--cyan); }
         <div class="timeline-item">
           <div class="year">Fév. – Mars 2027</div>
           <div class="label">Stage de 2e année – Administration systèmes & réseaux</div>
-        </div>
-        <div class="timeline-item">
-          <div class="year">2027+</div>
-          <div class="label">Bac+3 en alternance – Cybersécurité / Réseaux</div>
         </div>
       </div>
     </div>
@@ -1480,9 +1481,46 @@ footer span { color: var(--cyan); }
 <section id="projets">
   <div class="section-label">05 · Projets & Tutoriels</div>
   <h2 class="page-title">Mes <span>Travaux Pratiques</span></h2>
-  <p class="page-sub">Tutoriels réalisés en cours en première année de BTS SIO SISR. Chaque carte indique les compétences du bloc 1 qu'elle mobilise.</p>
+  <p class="page-sub">Mes projets personnels et les tutoriels réalisés en cours de BTS SIO SISR. Chaque carte indique les compétences du bloc 1 qu'elle mobilise.</p>
 
   <div class="projets-grid">
+
+    <div class="projet-card fade-in">
+      <div class="projet-num">PROJET PERSONNEL · LAB</div>
+      <h3>Infrastructure Windows Server 2025</h3>
+      <div class="projet-title-full">Domaine Active Directory monté en autonomie, chez moi, sous VMware Workstation</div>
+      <p>Mise en place seul d'une infrastructure d'entreprise virtualisée : contrôleur de domaine Windows Server 2025 (SRV-DC01) avec Active Directory, DNS et DHCP, organisation en unités d'organisation, stratégies de groupe (GPO) et poste client Windows intégré au domaine.</p>
+      <div class="projet-tags">
+        <span class="projet-tag">Windows Server 2025</span>
+        <span class="projet-tag">AD DS</span>
+        <span class="projet-tag">DNS / DHCP</span>
+        <span class="projet-tag">OU &amp; GPO</span>
+        <span class="projet-tag">VMware</span>
+      </div>
+      <div class="comp-row">
+        <span class="comp-badge" title="Gérer le patrimoine informatique">C1 · Patrimoine informatique</span>
+        <span class="comp-badge" title="Mettre à disposition des utilisateurs un service informatique">C5 · Mise à disposition</span>
+        <span class="comp-badge" title="Organiser son développement professionnel">C6 · Développement pro</span>
+      </div>
+    </div>
+
+    <div class="projet-card fade-in">
+      <div class="projet-num">PROJET PERSONNEL · EN COURS</div>
+      <h3>Pare-feu pfSense</h3>
+      <div class="projet-title-full">Sécurisation de mon réseau de test avec un pare-feu pfSense</div>
+      <p>Installation de pfSense sous VMware pour protéger mon infrastructure Windows Server : séparation entre le réseau externe (WAN) et le réseau interne (LAN). Prochaine étape : mise en place des règles de filtrage pour ne laisser passer que les flux nécessaires.</p>
+      <div class="projet-tags">
+        <span class="projet-tag">pfSense</span>
+        <span class="projet-tag">Pare-feu</span>
+        <span class="projet-tag">WAN / LAN</span>
+        <span class="projet-tag">Filtrage</span>
+        <span class="projet-tag">VMware</span>
+      </div>
+      <div class="comp-row">
+        <span class="comp-badge" title="Mettre à disposition des utilisateurs un service informatique">C5 · Mise à disposition</span>
+        <span class="comp-badge" title="Organiser son développement professionnel">C6 · Développement pro</span>
+      </div>
+    </div>
 
     <div class="projet-card fade-in">
       <div class="projet-num">TUTORIEL RÉSEAU · 01</div>
@@ -1727,7 +1765,7 @@ footer span { color: var(--cyan); }
 <section id="veille">
   <div class="section-label">07 · Veille informationnelle</div>
   <h2 class="page-title">L'<span>IA</span> dans la cybersécurité</h2>
-  <p class="page-sub">Sujet de veille technologique – Mise à jour continue tout au long de la formation. Dernière mise à jour : octobre 2026.</p>
+  <p class="page-sub">Sujet de veille technologique – Mise à jour continue tout au long de la formation. Dernière mise à jour : novembre 2026.</p>
 
   <div class="veille-hero fade-in">
     <div class="sub">VEILLE TECHNOLOGIQUE · IA & CYBERSÉCURITÉ</div>
@@ -1789,6 +1827,34 @@ footer span { color: var(--cyan); }
     <div class="actu-list">
 
       <div class="actu-year">2026</div>
+      <div class="actu-item key fade-in">
+        <div class="actu-date">19 nov. 2026</div>
+        <div>
+          <span class="key-badge">⭐ ESSENTIEL</span>
+          <h4><a href="https://www.info.gouv.fr/actualite/cybersecurite-de-nouvelles-mesures-pour-proteger-le-quotidien-des-francais" target="_blank" rel="noopener">Plan gouvernemental de cybersécurité : une menace « grave et inédite »</a></h4>
+          <p>Le Premier ministre présente un plan de renforcement de la cybersécurité, aux côtés du directeur général de l'ANSSI. Les ministères devront consacrer au moins 5 % de leur budget numérique à la cybersécurité (10 % en 2030), et 200 millions d'euros sont prévus pour les technologies de cyberdéfense. L'IA y est décrite comme un accélérateur des attaques, même si aucune cyberattaque française de grande ampleur entièrement menée par IA n'a encore été documentée.</p>
+          <p class="actu-why">Pourquoi c'est important : la cybersécurité devient une priorité budgétaire de l'État, ce qui crée des besoins concrets en techniciens et administrateurs formés.</p>
+          <span class="actu-src">Source : info.gouv.fr (officiel) · voir aussi <a href="https://kulturegeek.fr/news-364398/cyberattaques-france-menace-niveau-grave-inedit-premier-ministre" target="_blank" rel="noopener" style="color:var(--blue2);">KultureGeek</a></span>
+        </div>
+      </div>
+      <div class="actu-item fade-in">
+        <div class="actu-date">30 oct. 2026</div>
+        <div>
+          <h4><a href="https://cyber.gouv.fr/enjeux-technologiques/intelligence-artificielle/" target="_blank" rel="noopener">ANSSI : un guide pour sécuriser les systèmes d'IA agentique</a></h4>
+          <p>L'ANSSI publie « Sécuriser un système IA agentique », un guide consacré aux IA capables d'agir seules sur un système, puis, le 17 novembre, des recommandations de sécurité pour les IA génératives connectées aux données internes de l'entreprise (RAG).</p>
+          <p class="actu-why">Pourquoi c'est important : après la mise en garde du CERT-FR en avril, l'ANSSI donne maintenant un cadre concret pour déployer ces outils en entreprise.</p>
+          <span class="actu-src">Source : ANSSI (officiel)</span>
+        </div>
+      </div>
+      <div class="actu-item fade-in">
+        <div class="actu-date">16 oct. 2026</div>
+        <div>
+          <h4><a href="https://www.lemagit.fr/actualites/366652455/Cyberhebdo-du-16-octobre-2026-une-semaine-violente-en-France-et-au-dela" target="_blank" rel="noopener">Allemagne : une mairie paralysée par une cyberattaque attribuée à l'IA</a></h4>
+          <p>La commune de Tangerhütte voit son service numérique fermé après l'exploitation d'une faille zero-day dans un logiciel municipal. Les habitants doivent revenir aux démarches papier pendant plusieurs semaines. Aucune donnée réelle n'aurait été volée. C'est le premier cas connu d'une cyberattaque par IA contre une municipalité allemande.</p>
+          <p class="actu-why">Pourquoi c'est important : les collectivités, comme la mairie où j'ai fait mon stage, sont des cibles directes. Les mises à jour rapides et la continuité de service sont essentielles.</p>
+          <span class="actu-src">Source : LeMagIT</span>
+        </div>
+      </div>
 
       <div class="actu-item key fade-in">
         <div class="actu-date">13 oct. 2026</div>
@@ -2009,14 +2075,14 @@ footer span { color: var(--cyan); }
     <div class="cv-card fade-in">
       <div class="cv-icon">📄</div>
       <h3>Curriculum Vitae</h3>
-      <p>Mon parcours, mon expérience à la DSI de Saint-Ouen-sur-Seine, mes compétences systèmes, réseaux et support, et mes projets.</p>
+      <p>Mon parcours orienté cybersécurité, mon expérience à la DSI de Saint-Ouen-sur-Seine, mes compétences systèmes et réseaux, et mes projets personnels.</p>
       <a href="CV_Ilyass_BEN_EL_MEKKI.pdf" target="_blank" class="btn btn-primary" style="font-size:0.82rem;padding:0.6rem 1.2rem;">Télécharger le CV</a>
     </div>
 
     <div class="cv-card fade-in">
       <div class="cv-icon">✉️</div>
       <h3>Lettre de Motivation</h3>
-      <p>Candidature à un stage en systèmes et réseaux de cinq semaines, du 22 février au 26 mars 2027.</p>
+      <p>Candidature à un stage de cinq semaines en cybersécurité et sécurité des infrastructures réseau, du 22 février au 26 mars 2027.</p>
       <a href="Lettre_de_motivation_Ilyass_BEN_EL_MEKKI.pdf" target="_blank" class="btn btn-primary" style="font-size:0.82rem;padding:0.6rem 1.2rem;">Télécharger la lettre</a>
     </div>
 
